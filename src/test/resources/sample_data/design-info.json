@@ -1,0 +1,13 @@
+{
+  "sampleData": {
+    "25504093-14db-449e-bed7-74e8d8fc6cac": {
+      "payload": "sample_data/object.dwl"
+    },
+    "662b5030-2ec4-42e5-817c-f570dfd15161": {
+      "payload": "sample_data/object_1.dwl"
+    },
+    "863234b4-a054-4293-8378-e7ef890baf2f": {
+      "payload": "sample_data/unknown.xml"
+    }
+  }
+}

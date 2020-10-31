@@ -1,0 +1,7 @@
+http:
+  port: "8081"
+transNational:
+  wsdl: "http://transnational-routes-service.us-e2.cloudhub.io/Bookings/BookingsSOAP?WSDL"
+  service: "Bookings"
+  port: "BookingsSOAP"
+  address: "http://transnational-routes-service.us-e2.cloudhub.io/Bookings/BookingsSOAP"  

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="origin" format="java">
+      <types:shape format="raml"><![CDATA[#%RAML 1.0 DataType
+type: string]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#0bc1627f-18f5-452d-93d7-236be392f915">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="origin"/>
+        </types:message>
+        <types:variables>
+          <types:variable name="origin" type="origin"/>
+        </types:variables>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>
